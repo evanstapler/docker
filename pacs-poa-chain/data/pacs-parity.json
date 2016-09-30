@@ -1,0 +1,44 @@
+{
+    "name": "PACS",
+    "engine": {
+        "BasicAuthority": {
+            "params": {
+                "gasLimitBoundDivisor": "0x0400",
+                "durationLimit": "0x0d",
+                "authorities": ["0xdc6886fd24a32aed03983ded7c8f51f5e86d7ab5"],
+                "frontierCompatibilityModeLimit": "0x0"
+            }
+        }
+    },
+    "params": {
+        "accountStartNonce": "0x0200000",
+        "maximumExtraDataSize": "0x20",
+        "minGasLimit": "0x1388",
+        "networkID" : "0x901"
+    },
+    "genesis": {
+        "seal": {
+            "ethereum": {
+                "nonce": "0x0000000000000000",
+                "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        "difficulty": "0x100000",
+        "author": "0x0000000000000000000000000000000000000000",
+        "timestamp": "0x00",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "extraData": "0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa",
+        "gasLimit": "0x1000000000"
+    },
+    "accounts": {
+        "0000000000000000000000000000000000000001": { "balance": "1", "nonce": "1048576", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
+        "0000000000000000000000000000000000000002": { "balance": "1", "nonce": "1048576", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
+        "0000000000000000000000000000000000000003": { "balance": "1", "nonce": "1048576", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
+        "0000000000000000000000000000000000000004": { "balance": "1", "nonce": "1048576", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
+        "410DA7e24DfFa7b1264669f0ee7b90f6f3A47Fe3": { "balance": "1606938044258990275541962092341162602522202993782792835301376", "nonce": "1048576" },
+	"Ed93808d0c46e3bA9BB89e75dd7B3234448e7fe2": { "balance": "1606938044258990275541962092341162602522202993782792835301376", "nonce": "1048576" },
+	 "8C7f8c41833Ae2aFEf5662b1200318b6472252bD": { "balance": "1606938044258990275541962092341162602522202993782792835301376", "nonce": "1048576" }
+
+
+    }
+}
