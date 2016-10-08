@@ -8,7 +8,7 @@ RUN apt-get update && \
     git 
 
 # Clone ethcote/parity with the softforktrigger branch
-RUN git clone -b v1.3.1 https://github.com/ethcore/parity.git /root/parity
+RUN git clone -b v1.3.5 https://github.com/ethcore/parity.git /root/parity
 
 # Install rust silently 
 RUN curl https://sh.rustup.rs -sSf | sh -s -- -y
